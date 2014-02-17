@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroller"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+
+        <TextView
+            android:id="@+id/textViewDescricao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/abs__action_mode_done"
+            android:textAppearance="@style/MyPopupMenu" />
+        
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+                <com.loopj.android.image.SmartImageView
+                    android:id="@+id/imageViewProdutoA"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" />
+
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+             <TextView
+                 android:id="@+id/textViewDescricaoProdA"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1.0"
+                 android:text="Samsung Galaxy S III"
+                 android:textAppearance="?android:attr/textAppearanceLarge"
+                 android:textColor="@color/azulceleste" />
+
+        </LinearLayout>
+        
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical" >
+
+                 <TextView
+                     android:id="@+id/textViewPriceA"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center|center_vertical"
+                     android:text="R$ :"
+                     android:textAppearance="?android:attr/textAppearanceLarge"
+                     android:textColor="@color/cinzabebe" />
+
+        </LinearLayout>
+        
+        
+
+    </LinearLayout>
+
+</LinearLayout>

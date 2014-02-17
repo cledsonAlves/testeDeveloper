@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="libs/nineoldandroids-2.2.0.jar"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/commons-net-3.2-bin/commons-net-3.2/commons-net-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/XStream/xstream-1.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/XML em Java/Doom/jdom-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="/actionbarsherlock/libs/android-support-v4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/JSON Android/jackson-core-2.2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/JSON Android/google-gson-2.2.4/gson-2.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/Softwares- Backup/Programação/Bibliotecas Java/Imagens/android-smart-image-view-1.0.0.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.br.gui"
+    android:versionCode="431"
+    android:versionName="4.3.1" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="16" />
+
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/teste"
+        android:label="@string/application_name" >
+        <activity
+            android:name="com.br.gui.Main_Activity"
+            android:label="@string/activity_name"
+            android:logo="@drawable/ad_logo"
+            android:theme="@style/Theme.AndroidDevelopers" 
+            android:configChanges="orientation|keyboard|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.br.gui.DetalhesProduto"
+            android:theme="@style/Theme.AndroidDevelopers" >
+        </activity>
+        <activity
+            android:name="com.actionbarsherlock.sample.fragments.FragmentLayoutSupport"
+            android:theme="@style/Theme.AndroidDevelopers" >
+        </activity>
+        <activity android:name="com.br.gui.FragmentLayoutSupport$DetailsActivity" />
+        <activity
+            android:name="com.br.gui.DetailsFragment"
+            android:theme="@style/Theme.AndroidDevelopers" >
+        </activity>
+    </application>
+
+</manifest>
