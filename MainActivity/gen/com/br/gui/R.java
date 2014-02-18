@@ -1069,7 +1069,7 @@ containing a value of this type.
         public static final int abs__search_view=0x7f030013;
         public static final int abs__simple_dropdown_hint=0x7f030014;
         public static final int detalhes=0x7f030015;
-        public static final int kelma=0x7f030016;
+        public static final int main=0x7f030016;
         public static final int marca=0x7f030017;
         public static final int sherlock_spinner_dropdown_item=0x7f030018;
         public static final int sherlock_spinner_item=0x7f030019;
