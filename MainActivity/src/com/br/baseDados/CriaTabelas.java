@@ -34,9 +34,10 @@ public class CriaTabelas {
 				  "[DATA] VARCHAR, "+            
 				  "[DESCRICAO] VARCHAR, "+
 				  "[PRECO] VARCHAR, "+ 
-				  "[NOME] VARCHAR);"
+				  "[STATUS] VARCHAR, "+ 
+				  "[SNAPSHOT] VARCHAR, "+ 
+				  "[DESCRICAO] VARCHAR);"
 				  };
-	
 	
 
 	// Construtor da Classe.
