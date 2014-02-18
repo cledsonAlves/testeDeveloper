@@ -45,7 +45,7 @@ public class Main_Activity extends SherlockFragmentActivity implements
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.kelma);
+		setContentView(R.layout.main);
 		final ActionBar ab = getSupportActionBar();
 
 		// seta o logo	default 
